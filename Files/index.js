@@ -1,5 +1,6 @@
-import * as Carousel from "./Carousel.js";
+import * as Carousel from "../Carousel.js";
 import axios from "axios";
+
 
 // The breed selection input element.
 const breedSelect = document.getElementById("breedSelect");
@@ -11,7 +12,8 @@ const progressBar = document.getElementById("progressBar");
 const getFavouritesBtn = document.getElementById("getFavouritesBtn");
 
 // Step 0: Store your API key here for reference and easy access.
-const API_KEY = ("live_2LiU5ZHmCTLsI4ZqYfERp3VWWHYbqHoc4t6hjC6O0FjmuSRCQ0TpI4xCGNNsitmC");
+const API_KEY = {"live_2LiU5ZHmCTLsI4ZqYfERp3VWWHYbqHoc4t6hjC6O0FjmuSRCQ0TpI4xCGNNsitmC"};
+
 
 /**
  * 1. Create an async function "initialLoad" that does the following:
@@ -36,13 +38,15 @@ const API_KEY = ("live_2LiU5ZHmCTLsI4ZqYfERp3VWWHYbqHoc4t6hjC6O0FjmuSRCQ0TpI4xCG
  *  - Remember that functionality comes first, but user experience and design are important.
  * - Each new selection should clear, re-populate, and restart the Carousel.
  * - Add a call to this function to the end of your initialLoad function above to create the initial carousel.
- */
 
-/**
- * 3. Fork your own sandbox, creating a new one named "JavaScript Axios Lab."
+
+//** 3. Fork your own sandbox, creating a new one named "JavaScript Axios Lab."
  */
 /**
- * 4. Change all of your fetch() functions to axios!
+ * 
+ * 
+ * 
+// 4. Change all of your fetch() functions to axios!
  * - axios has already been imported for you within index.js.
  * - If you've done everything correctly up to this point, this should be simple.
  * - If it is not simple, take a moment to re-evaluate your original code.
@@ -51,14 +55,17 @@ const API_KEY = ("live_2LiU5ZHmCTLsI4ZqYfERp3VWWHYbqHoc4t6hjC6O0FjmuSRCQ0TpI4xCG
  *   send it manually with all of your requests! You can also set a default base URL!
  */
 /**
+ 
+ 
+ 
  * 5. Add axios interceptors to log the time between request and response to the console.
  * - Hint: you already have access to code that does this!
  * - Add a console.log statement to indicate when requests begin.
  * - As an added challenge, try to do this on your own without referencing the lesson material.
- */
 
-/**
- * 6. Next, we'll create a progress bar to indicate the request is in progress.
+
+
+//6. Next, we'll create a progress bar to indicate the request is in progress.
  * - The progressBar element has already been created for you.
  *  - You need only to modify its "width" style property to align with the request progress.
  * - In your request interceptor, set the width of the progressBar element to 0%.
