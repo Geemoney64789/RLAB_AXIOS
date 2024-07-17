@@ -12,7 +12,7 @@ const progressBar = document.getElementById("progressBar");
 const getFavouritesBtn = document.getElementById("getFavouritesBtn");
 
 // Step 0: Store your API key here for reference and easy access.
-const API_KEY = {"live_2LiU5ZHmCTLsI4ZqYfERp3VWWHYbqHoc4t6hjC6O0FjmuSRCQ0TpI4xCGNNsitmC"};
+const API_KEY = "live_2LiU5ZHmCTLsI4ZqYfERp3VWWHYbqHoc4t6hjC6O0FjmuSRCQ0TpI4xCGNNsitmC";
 
 
 /**
